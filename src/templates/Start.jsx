@@ -1,12 +1,12 @@
 import React from 'react'
 import styled from 'styled-components';
+import { dimensions } from '../helper';
 
 const Content = styled.section`
     height: 100vh;
     margin: auto;
     position: relative;
     display: flex;
-    min-width: calc(100vw - 100px);
 
     img {
         height: 100vh;
@@ -20,20 +20,30 @@ const Content = styled.section`
         justify-content: center;
 
         h1 {
-            font-size: 120px;
+            font-size: clamp(24px, 10vw, 120px);
             font-weight: bold;
             margin: 0px;
         }
 
         p {
-            font-size: 26px; 
+            font-size: clamp(16px, 5vw, 26px); 
             margin: 0px;
             opacity: .9;
             width: 100%;
             margin-left: auto;
         }
+
+        
     }
 
+    @media (max-width: ${dimensions.md}) {
+        width: 100%;
+
+        .text {
+            padding: 0px 50px;
+        }
+            
+    }
     
 `;
 function Start(props) {

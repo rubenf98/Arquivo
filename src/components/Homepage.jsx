@@ -35,7 +35,7 @@ const Header = styled.section`
     }
 
     p {
-        font-size: 32px; 
+        font-size: 26px; 
         margin: 0px;
         opacity: .9;
         width: 30%;
@@ -146,7 +146,7 @@ function Homepage() {
         <div>
             <Header>
                 <img src="/images/header_xl.jpg" alt="hospital" />
-                <h1>title</h1>
+                <h1>espmed.</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.</p>
             </Header>
 

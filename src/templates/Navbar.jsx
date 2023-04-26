@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import { dimensions } from '../helper';
 
 const Container = styled.section`
     height: 100vh;
@@ -35,7 +36,20 @@ const Container = styled.section`
         padding-bottom: 50px;
         box-sizing: border-box;
     }
+    @media (max-width: ${dimensions.md}) {
+        .icon {
+            height: 80px;
+        }
+        .icon, .name {
+            width: 80px;
 
+            img {
+                width: 30px;
+            }
+        }
+
+        
+    }
     
 `;
 function Navbar() {
@@ -48,7 +62,7 @@ function Navbar() {
                 <img src="/icons/back.svg" alt="voltar" />
             </Link>
             <div className='name'>
-                <h2>titulo</h2>
+                <h2>espmed.</h2>
             </div>
         </Container>
     )
