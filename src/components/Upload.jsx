@@ -188,14 +188,8 @@ function Upload() {
         }
         formData.append("type", type);
 
-        const headers = {
-            'Content-Type': 'application/json',
-        }
 
-
-        axios.post("https://wave-labs.org/api/arquivo/upload", formData, {
-            headers: headers
-        }).then((response => {
+        axios.post("https://wave-labs.org/api/arquivo/upload", formData).then((response => {
 
             var predictionString = response.data;
 
