@@ -1,7 +1,7 @@
 export const light = {
     text: '#16181C',
-    primary: '#E4C180',
-    accent: '#c49a4e',
+    primary: '#94BD90',
+    secundary: '#556BA4',
     background: '#ffffff',
     scrollIndicator: '#16181C44',
     scrollIndicatorAccent: '#16181Ca7',

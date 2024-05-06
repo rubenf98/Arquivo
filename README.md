@@ -1,70 +1,9 @@
-# Getting Started with Create React App
+# ArquivoNet
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## _Inteligência Artificial para classificação de imagens com informação temporal_
 
-## Available Scripts
+O projeto ArquivoNet visa a criação de um sistema inteligente para classificação de imagens com perspectivas temporais, permitindo uma análise histórica das imagens armazenadas no Arquivo.pt. O projeto é inspirado em duas necessidades emergentes na área da inteligência artificial (IA). Primeiramente a criação de uma solução alimentada por informação temporal que proporciona uma visão única e adaptável da evolução de eventos e objetos ao longo do tempo. Esta perspetiva temporal dos objetos possibilita a implementação de soluções adaptáveis para problemas passados, presentes e futuros.
 
-In the project directory, you can run:
+Em segundo lugar, há cada vez mais necessidade de um maior volume de dados que permitam métodos de IA mais generalizáveis. Os avanços tecnológicos atuais requerem cada vez mais informação que, apesar de pertencerem muitas vezes ao domínio público, carecem de protocolos de filtragem e processamento essenciais para o desenvolvimento destas tecnologias.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Expressamos a nossa gratidão ao Arquivo.pt por fornecer um recurso tão valioso, que foi essencial para o desenvolvimento bem-sucedido do ArquivoNet. Estamos ansiosos para continuar contribuindo para o avanço da compreensão da história digital.
